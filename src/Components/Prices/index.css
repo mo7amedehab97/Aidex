@@ -1,0 +1,29 @@
+.prices_container {
+  padding: 40px 140px 80px;
+}
+.outer_holder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px;
+}
+.inner_holder {
+  width: calc(100% / 2);
+}
+.inner_holder div {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-top: 1px solid var(--background1);
+}
+.inner_holder div:last-child {
+  border-bottom: 1px solid var(--background1);
+}
+
+.inner_holder div span:nth-child(2) {
+  font-weight: bold;
+}
+
+.inner_holder div span:nth-child(1) {
+  text-transform: capitalize;
+}
