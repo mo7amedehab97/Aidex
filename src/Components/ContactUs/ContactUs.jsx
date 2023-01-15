@@ -3,7 +3,7 @@ import Title from "../Title/Title";
 import "./index.css";
 const ContactUs = () => {
   return (
-    <div className="contact_container">
+    <div className="contact_container" id="contact">
       <Title title="leave a request to be called" />
       <div className="inputs_holder">
         <div className="contact_input">

@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 
 const Prices = () => {
   return (
-    <div className="prices_container">
+    <div className="prices_container" id="prices">
       <Title title="tour prices" />
       <div className="outer_holder">
         <div className="inner_holder">
