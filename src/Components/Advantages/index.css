@@ -15,9 +15,11 @@
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  gap: 40px;
 }
 .copmonent_container {
   max-width: calc(100% / 4);
+  min-width: 200px;
 }
 .copmonent_container p {
   max-width: 70%;
@@ -28,4 +30,23 @@
 }
 .copmonent_container h3 {
   text-transform: capitalize;
+}
+@media (max-width: 1090px) {
+  .advantages_container {
+    padding: 40px 40px 80px;
+  }
+}
+@media (max-width: 900px) {
+  .advantges_row {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .copmonent_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

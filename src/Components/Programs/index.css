@@ -48,3 +48,23 @@ button {
   color: var(--text_color2);
   background-color: var(--accent);
 }
+@media (max-width: 900px) {
+  .program_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pro_holder {
+   
+    min-width: 540px;
+
+  }
+}
+@media (max-width: 600px) {
+  .pro_holder {
+   
+    min-width: 340px;
+
+  }
+
+}

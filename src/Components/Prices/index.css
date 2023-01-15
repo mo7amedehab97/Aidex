@@ -27,3 +27,23 @@
 .inner_holder div span:nth-child(1) {
   text-transform: capitalize;
 }
+@media (max-width: 900px) {
+  .prices_container {
+    padding: 40px 40px 80px;
+  }
+  .outer_holder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .inner_holder {
+    width: calc(100%);
+  }
+}
+@media (max-width: 500px) {
+
+  .inner_holder div span{
+    font-size: 12px;
+  }
+}

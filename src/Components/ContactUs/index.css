@@ -44,3 +44,24 @@
   text-transform: capitalize;
   color: rgb(120, 120, 120);
 }
+@media (max-width: 1090px) {
+  .contact_container {
+    padding: 40px 40px 80px;
+  }
+  .inputs_holder {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 32px;
+  }
+  .contact_input {
+    width: calc(80%);
+    margin: 16px 0;
+  }
+  .contact_input input {
+    margin-top: 8px;
+  }
+
+  .contact_details {
+    margin-top: 16px;
+  }
+}
