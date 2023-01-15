@@ -1,0 +1,50 @@
+.programs_container {
+  background-color: var(--background1);
+  padding: 40px 140px 80px;
+}
+
+.program_container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.pro_holder {
+  max-width: calc(100% / 3);
+}
+.pro_holder img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.pro_holder h3 {
+  margin: 16px 0;
+  letter-spacing: 1px;
+}
+.pro_holder p,
+h3,
+button {
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.pro_holder p {
+  font-size: 16px;
+}
+.pro_holder button {
+  background-color: transparent;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 25px;
+  border: 1px solid var(--accent);
+  margin-top: 16px;
+  color: var(--text_color1);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 1s ease-in;
+}
+.pro_holder button:hover {
+  cursor: pointer;
+  color: var(--text_color2);
+  background-color: var(--accent);
+}

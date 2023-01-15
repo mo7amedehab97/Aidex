@@ -1,0 +1,31 @@
+.advantages_container {
+  padding: 40px 140px 80px;
+}
+.advantage_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  margin-bottom: 16px;
+}
+.advantges_row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.copmonent_container {
+  max-width: calc(100% / 4);
+}
+.copmonent_container p {
+  max-width: 70%;
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.copmonent_container h3 {
+  text-transform: capitalize;
+}
