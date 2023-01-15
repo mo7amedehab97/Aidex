@@ -1,0 +1,46 @@
+.contact_container {
+  padding: 40px 140px 80px;
+}
+
+.inputs_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.contact_input {
+  width: calc(100% / 3);
+  margin: 40px 0;
+}
+.contact_input input {
+  margin-top: 16px;
+  width: 100%;
+  padding: 12px 8px;
+  border-radius: 25px;
+  border: 1px solid rgb(120, 120, 120);
+  text-transform: capitalize;
+  color: rgb(120, 120, 120);
+}
+.contact_input input:focus {
+  outline: none;
+  border: 1px solid var(--accent);
+}
+.contact_input button {
+  margin-top: 32px;
+  width: 100%;
+  padding: 12px 8px;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--accent);
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.contact_details {
+  margin-top: 16px;
+}
+.contact_details p {
+  text-transform: capitalize;
+  color: rgb(120, 120, 120);
+}
